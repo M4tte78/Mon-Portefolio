@@ -10,9 +10,9 @@
   body{
     margin:0;
     padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(./documents/LowPoly-400x250.png) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(./documents/background-6297148_1280.webp) no-repeat;
     background-size: cover;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: "open sans";
     height: 100vh;
     display: flex;
@@ -46,6 +46,7 @@
   
   header nav{
     padding: 1rem 2rem;
+    margin-top: 20px;
   }
   
   nav ul li{
@@ -53,7 +54,7 @@
     display: inline;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
   }
   
   nav li a{
@@ -72,7 +73,9 @@
   
   
   /* ------------------------ TOP SECTION ----------------*/
-  
+  #content {
+    margin-top: 0px; /* ou la hauteur de votre barre de navigation */
+    }
   .titles{
     color: white;
     text-align: center;
