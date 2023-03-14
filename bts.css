@@ -3395,7 +3395,10 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #F6F6F6;
+    background-image:url(./documents/cercle.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: ghostwhite;
 }
 
 
@@ -3465,11 +3468,11 @@ body{
 /**-- Box shadow sur les cards --**/
 
 .bs-card {
-  box-shadow: 0 0 12px rgba(0,0,0 ,0.2);
+  box-shadow: 0 0 12px rgba(238, 0, 255, 0.955);
 }
 
 .c-black, .c-black a:link{
-  color: black!important;
+  color: rgb(255, 255, 255)!important;
 }
 
 .padding-top-10{
@@ -3484,21 +3487,19 @@ body{
 .titre_sousvague{
   font-size: 40px;
   margin-bottom: 2vh;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: lighter;
 }
 
-.lien_mentions {
-  color: #ee1800!important;
-}
+
 
 .separation_footer{
     height:5px;
-    background-color: #444444;
+    background-color: #ffffff;
 }
 
 .footer a {
-    color: #212529!important;
+    color: #f0f0f0!important;
     text-transform: none;
 }
 
@@ -3530,7 +3531,7 @@ body{
     border: 2px solid #444444;
     border-radius: 6em;
     z-index: 4;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgb(238, 8, 192);
     width:300px;
     padding: 0.25em 2em 0.25em 2em;
     max-width: 100%;
@@ -3555,11 +3556,11 @@ body{
  }
  
 .navbar_top ul{
-    background-color: rgba(68,68,68,0.5);
+    background-color: rgba(225, 0, 255, 0.5);
     border-radius: 2em;
     padding-left: 2em;
     padding-right: 2em;
-    box-shadow: 0 0 5px rgba(0,0,0, 1);
+    box-shadow: 0 0 5px rgb(251, 0, 255);
 }
 
 .navbar_top ul li{
@@ -3573,7 +3574,7 @@ body{
 }
 
 .navbar_top a:hover{
-    color: #000000;
+    color: #ee00ff;
 }
 
 .intro_text{
@@ -3624,9 +3625,9 @@ body{
 .cards_qualites{
     margin-top: 3vh;
     background-color: white;
-    color: black;
+    color: rgb(255, 0, 217);
     border-radius: 0.5em;
-    box-shadow: 0 0 12px rgba(0,0,0 ,0.5);
+    box-shadow: 0 0 12px rgba(253, 0, 219, 0.5);
     padding: 2%;
     margin-bottom: 5vh;
 }
@@ -3638,7 +3639,7 @@ body{
 
 .titre_card_qualite{
     margin-top: 1%;
-    color: #fe1919;
+    color: #ef00d7;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -3729,49 +3730,6 @@ body{
     }
 }
 
-/***************************/
-/**  BOUTON SCROLL ACCUEIL */
-/**************************/
-
-  .scroll-downs {
-    position: absolute;
-    right: 0;
-    bottom: 5vh;
-    left: 0;
-    margin: auto;
-    width :34px;
-    height: 55px;
-  }
-  .mousey {
-    width: 3px;
-    padding: 10px 15px;
-    height: 35px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 25px;
-    opacity: 0.75;
-    box-sizing: content-box;
-  }
-  .scroller {
-    width: 3px;
-    height: 10px;
-    border-radius: 25%;
-    background-color: rgb(255, 255, 255);
-    animation-name: scroll;
-    animation-duration: 2.2s;
-    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-    animation-iteration-count: infinite;
-  }
-  @keyframes scroll {
-    0% { opacity: 0; }
-    10% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(15px); opacity: 0;}
-  }
-
-/*****************************/
-/**  FIN BTN SCROLL ACCUEIL  */
-/*****************************/
-
-
 /*****************************/
 /**      PAGE BTS SIO        */
 /*****************************/
@@ -3779,7 +3737,7 @@ body{
 
 .card_presentation_bts{
     border-radius: 0.5em;
-    box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+    box-shadow: 0 0 5px rgba(255, 0, 234, 0.5);
 }
 
 #presentation{
@@ -3799,9 +3757,9 @@ body{
 .cards_options{
     margin-top: 3vh;
     background-color: white;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 0.5em;
-    box-shadow: 0 0 12px rgba(0,0,0 ,0.5);
+    box-shadow: 0 0 12px rgba(234, 0, 255, 0.5);
     padding: 2%;
     margin-bottom: 5vh;
 }
@@ -3809,7 +3767,7 @@ body{
 
 .titre_card_options{
     margin-top: 1%;
-    color: #fe1919;
+    color: #fe02f6;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
@@ -3817,22 +3775,22 @@ body{
 
 .description_card{
     margin-top: 5%;
-    color: #7b7b7b;
+    color: #000000;
 }
 
 .cards_matieres{
     margin-top: 3vh;
-    background-color: white;
-    color: black;
+    background-color: rgb(236, 236, 236);
+    color: rgb(255, 1, 230);
     border-radius: 0.5em;
-    box-shadow: 0 0 12px rgba(0,0,0 ,0.5);
+    box-shadow: 0 0 12px rgba(226, 5, 204, 0.5);
     padding: 2%;
     margin-bottom: 5vh;
 }
 
 .description_card_matieres{
     margin-top: 2%;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 15px;
 }
 
@@ -3840,7 +3798,7 @@ body{
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 30px;
-    color: #444444;
+    color: #ff00ea;
 }
 
 .card_2e_annee{
@@ -3870,12 +3828,9 @@ body{
     text-align: center;
 }
 
-.fond_vagues {
-    background: linear-gradient(to right, #e2461e, #f70303);
-    min-width: 100%;
-}
 
 
 .cards_veille{
     width: 60%;
 }
+

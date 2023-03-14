@@ -14,7 +14,8 @@
    font-weight: 300;
    line-height: 1.42em;
    color:#A7A1AE;
-   background-color:#1F2739;
+   background-image: url(././documents/cercle.jpg);
+   background-size: cover;
  }
  
  h1 {
@@ -32,24 +33,24 @@
    display: block;
    line-height:1em;
    padding-bottom: 2em;
-   color: #FB667A;
+   color: #f647b8;
  }
  
  h2 a {
    font-weight: 700;
    text-transform: uppercase;
-   color: #FB667A;
+   color: #f22fce;
    text-decoration: none;
  }
  
- .blue { color: #185875; }
- .yellow { color: #FFF842; }
+ .blue { color: #efeff0; }
+ .yellow { color: #ff1ef4; }
  
  .container th h1 {
        font-weight: bold;
        font-size: 1em;
    text-align: left;
-   color: #185875;
+   color: #ff15c5;
  }
  
  .container td {
@@ -58,6 +59,7 @@
    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
         -moz-box-shadow: 0 2px 2px -2px #0E1119;
              box-shadow: 0 2px 2px -2px #0E1119;
+             color: #ffffff;
  }
  
  .container {
@@ -86,10 +88,10 @@
  }
  
  .container th {
-       background-color: #1F2739;
+       background-color: #20293b;
  }
  
- .container td:first-child { color: #FB667A; }
+ .container td:first-child { color: #a00398; }
  
  .container tr:hover {
     background-color: #464A52;
@@ -99,11 +101,11 @@
  }
  
  .container td:hover {
-   background-color: #FFF842;
+   background-color: #fd26cb;
    color: #403E10;
    font-weight: bold;
    
-   box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+   box-shadow: #6d1c65 -1px 1px, #6d1c65  -2px 2px, #6d1c65  -3px 3px, #6d1c65  -4px 4px, #6d1c65  -5px 5px, #6d1c65  -6px 6px;
    transform: translate3d(6px, -6px, 0);
    
    transition-delay: 0s;
@@ -163,4 +165,8 @@
   nav li a:hover{
     background: rgba(255,255,255,.3);
     color: black;
+  }
+  
+  presentation{
+color: #efeff0;
   }

@@ -1,0 +1,471 @@
+div.relative {
+    position: relative;
+    top: 30px;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+  
+  /* colors */
+  
+  .blue {
+    color: rgb(20, 175, 247);
+  }
+  
+  .blueBG {
+    background-color: rgb(20, 175, 247);
+  }
+  
+  .teal {
+    color: #56ceb0;
+  }
+  
+  .tealBG {
+    background-color: #56ceb0;
+  }
+  
+  .purple {
+    color: #a770d4;
+  }
+  
+  .purpleBG {
+    background-color: #a770d4;
+  }
+  
+  .pink {
+    color: #e28ede;
+  }
+  
+  .pinkBG {
+    background-color: #e28ede;
+  }
+  
+  .yellow {
+    color: #d1c849;
+  }
+  
+  .yellowBG {
+    background-color: #d1c849;
+  }
+  
+  body {
+    background-color: rgb(2, 5, 29);
+    background-image: url(./documents/cercle.jpg);
+    background-position: center center ;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: normal;
+    color: rgb(20, 175, 247);
+    text-align: center;
+    letter-spacing: 7px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    font-family: "Comfortaa", cursive;
+    color: #ffffff;
+  }
+  
+  .p-modal1 {
+    font-family: "Comfortaa", cursive;
+    color: #ffffff;
+    width: 90%;
+    max-width:650px;
+    float:left;
+    word-wrap:break-word;
+    padding: 1em;
+    line-height: 1.6;
+    margin-top:10px;
+  }
+  
+  .p-modal4 {
+    font-family: "Comfortaa", cursive;
+    color: #ffffff;
+    width: 90%;
+    max-width:650px;
+    float:left;
+    word-wrap:break-word;
+    padding: 0.5em;
+    line-height: 1.6;
+    margin-top:10px;
+  }
+  
+  .title-size {
+    font-size: 1.3em;
+  }
+  
+  .max-width {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .logo-width {
+    width: 100%;
+    height: auto;
+    max-width: 60px;
+  }
+  
+  .countShow {
+    display: inline-block;
+    font-family: "Comfortaa", cursive;
+    color: rgb(114, 114, 114);
+  }
+  
+  .textShow {
+    padding: 20px;
+    visibility: visible;
+    font-family: "Comfortaa", cursive;
+    color: rgb(114, 114, 114);
+  }
+  
+  .textShow .hide {
+    visibility: hidden;
+  }
+  
+  /* font-awesome icons */
+  .fa {
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover,
+  .fa:focus {
+    cursor: pointer;
+  }
+  
+  .fa-github {
+    color: white;
+  }
+  
+  .fa-github:hover,
+  .fa-github:focus {
+    color: #56ceb0;
+  }
+  
+  .fa-code {
+    color: white;
+  }
+  
+  .fa-code:hover,
+  .fa-code:focus {
+    color: #a770d4;
+  }
+  
+  .fa-linkedin {
+    color: white;
+  }
+  
+  .fa-linkedin:hover,
+  .fa-linkedin:focus {
+    color: #e28ede;
+  }
+  
+  .fa-address-card {
+    color: white;
+  }
+  
+  .fa-address-card:hover,
+  .fa-address-card:focus {
+    color: #d1c849;
+  }
+  
+  .button {
+    font-family: "Comfortaa", cursive;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.5s linear;
+  }
+  
+  button:focus {
+    outline: 0;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .left {
+    float:left;
+  }
+  
+  .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* main button colors */
+  
+  .about-me {
+    border: 1px solid #56ceb0;
+  }
+  
+  .about-me:hover {
+    background-color: #56ceb0;
+  }
+  
+  .projects {
+    border: 1px solid #a770d4;
+  }
+  
+  .projects:hover {
+    background-color: #a770d4;
+  }
+  
+  .achievements {
+    border: 1px solid #e28ede;
+  }
+  
+  .achievements:hover {
+    background-color: #e28ede;
+  }
+  
+  .experience {
+    border: 1px solid #d1c849;
+  }
+  
+  .experience:hover {
+    background-color: #d1c849;
+  }
+  
+  /* fade in animation */
+  
+  .fade-in {
+    opacity: 0; /* make things invisible upon start */
+    -webkit-animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+  
+    -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+  }
+  
+  .fade-in.one {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+  }
+  
+  .fade-in.two {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+  }
+  
+  .fade-in.three {
+    -webkit-animation-delay: 1.6s;
+    -moz-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+  }
+  
+  .fade-in.four {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
+  /* subheader typing animation */
+  
+  .console-container {
+    font-family: "Montserrat";
+    text-align: center;
+    display: block;
+    position: relative;
+    color: white;
+  }
+  .console-underscore {
+    display: inline-block;
+    position: relative;
+    top: -0.14em;
+  }
+  
+  /* modals */
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* modal close button */
+  .close {
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    font-size: 50px;
+    margin-left: 50px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: #3e9781;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #704197;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #a853a4;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: #9e9732;
+  }
+  
+  /* project modal */
+  .project-container {
+    display: inline-block;
+    padding: 2em;
+    transition: transform .2s;
+  }
+  
+  .project-container:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+  
+  /* about-me modal */
+  .aboutme-container {
+    display: inline-block;
+    padding: 1.5em;
+    text-align:left;
+  }
+  
+  /* make keyframes that tell the start state and the end state of our object */
+  
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+
+
+
+
+     /* ------------------------ NAVBAR ----------------*/
+  }
+  header{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    background: rgba(0,0,0,0.2)
+  }
+  
+  header div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Pacifico;
+    margin: 0 2rem;
+  }
+  
+  header div i{
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  
+  
+  header nav{
+    padding: 1rem 2rem;
+    margin-top: 20px;
+  }
+  
+  nav ul li{
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  
+  nav li a{
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: all 250ms ease-in;
+  }
+  
+  nav li a:hover{
+    background: rgba(255,255,255,.3);
+    color: black;
+  }
+  

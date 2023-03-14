@@ -1,11 +1,15 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: url(./documents/cercle.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: aliceblue;
   }
   
   header {
     background-color: #2C3E50;
-    color: white;
+    color: rgb(250, 241, 241);
     padding: 20px;
   }
   
@@ -21,8 +25,8 @@ body {
   header{
     display:flex;
     justify-content: space-between;
-    color: white;
-    background: rgba(0,0,0,0.2)
+    color: rgb(255, 254, 254);
+    background: rgba(0, 0, 0, 0.2)
   }
   
   header div{
@@ -56,13 +60,13 @@ body {
     padding: 1rem;
     margin: 1rem;
     text-decoration: none;
-    color: white;
+    color: rgb(244, 240, 240);
     transition: all 250ms ease-in;
   }
   
   nav li a:hover{
     background: rgba(255,255,255,.3);
-    color: black;
+    color: rgb(242, 241, 241);
   }
   
   .middle{
